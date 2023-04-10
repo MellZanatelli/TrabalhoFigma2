@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Press+Start+2P&display=swap');
+
+a:link, a:visited, a:active{
+    font-family: "Press Start 2P";
+    Color: var(--preto);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    justify-content: center;
+}
+
+:root{
+    --azul: #AAE8FF;
+    --rosa: #E89AFF;
+    --preto: #010101;
+    --branco: #ffff;
+    --lilas: #9D68C6;
+    --dark: #370260;
+}
+
+body{
+    background: var(--preto);
+}
+
+header.entrar{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: #5B03A0;
+    align-items: center;
+}
+
+header.entrar nav.Links{
+    align-items: center;
+    justify-content: center;
+}
+
+header.entrar nav.Links ul{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header.entrar nav.perfil img{
+    width: 3rem;
+    border-radius: 4rem;
+    border: 2px;
+    border-color: var(--azul);
+    padding: 4px;
+    background-image: linear-gradient( var(--azul), var(--rosa));
+}
+
+header.entrar nav.perfil article{
+    font-family: "Press Start 2P";
+    font-size: 1rem;
+    padding: 1rem;
+    color: var(--branco)
+}
+
+header.entrar nav.perfil{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+header.entrar article.pesquisar{
+    padding: 0.5rem 20rem 0.5rem 0.5rem;
+    font-family: "Press Start 2P";
+    color: var(--lilas);
+    background-color: var(--dark);
+    border-width: 2px;
+    border-top: solid var(--azul);
+    border-left: solid var(--rosa);
+    border-right: solid var(--azul);
+    border-bottom: solid var(--rosa);
+}
+
+header.entrar img.pesquisar{
+    width: 4.1rem;
+}
+
+header.entrar nav.Links ul li#pasta{
+    padding-right: 1rem;
+}
+
+header.entrar nav.Links ul li#conversa{
+    padding: 1rem;
+}
+
+header.entrar nav.Links ul li#partidas{
+    padding: 1rem;
+}
+
+header.entrar nav.Links ul li#criar{
+    padding: 1.4rem 1rem 1.4rem 1rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient( var(--azul), var(--rosa))
+}
+
+header.entrar nav.Links ul li.separa{
+    padding: 1rem 1px 1rem 1px;
+    background-color: var(--lilas);
+}
+

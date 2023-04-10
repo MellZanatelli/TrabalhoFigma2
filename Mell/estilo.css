@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Press+Start+2P&display=swap');
+
+
+a:link, a:visited, a:active{
+    font-family: "Press Start 2P";
+    Color: var(--preto);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    justify-content: center;
+}
+header.home nav.Links ul{
+    align-items: center;
+}
+
+header.home nav.Links ul li.separa{
+    padding: 1rem 1px 1rem 1px;
+    background-color: var(--lilas);
+}
+
+header.home nav.Links ul li#entrar{
+    border-width: 2px;
+    border-top: solid var(--azul);
+    border-left: solid var(--rosa);
+    border-right: solid var(--azul);
+    border-bottom: solid var(--rosa);
+    border-radius: 2px;
+}
+
+header.home nav.Links ul li#espaco{
+    padding: 0.5rem;
+}
+
+header.home article.pesquisar{
+    padding: 0.5rem 20rem 0.5rem 0.5rem;
+    font-family: "Press Start 2P";
+    color: var(--lilas);
+    background-color: var(--dark);
+    border-width: 2px;
+    border-top: solid var(--azul);
+    border-left: solid var(--rosa);
+    border-right: solid var(--azul);
+    border-bottom: solid var(--rosa);
+}
+header.home img.pesquisar{
+    width: 4.1rem;
+}
+
+header.home nav.Links ul li#cadastrar{
+    padding: 1.4rem 1rem 1.4rem 1rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient( var(--azul), var(--rosa));
+}
+
+:root{
+    --azul: #AAE8FF;
+    --rosa: #E89AFF;
+    --preto: #010101;
+    --branco: #ffff;
+    --lilas: #9D68C6;
+    --dark: #370260;
+}
+
+
+
+body{
+    background: #010101;
+}
+header.home{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: #5B03A0;
+    align-items: center;
+}
+
+header.home picture img{
+    height: 4rem;
+    padding: 2rem;
+}
+
+header.home nav{
+    display: inline-flex;
+
+}
+
+header.home nav ul li{
+    display: inline-flex;
+    padding: 1rem;
+}
+
+footer.home{
+    background: #2E1B5B url(./Imagens/matinho.png);
+    height: 4rem;
+}
+
+body section ul li ul#cadastro{
+    display: inline-flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+body section.main section.I{
+    display: inline-flex;
+    align-items: center;
+}
+
+body section.main{
+    display: grid;
+}
+
+body section.main section.II{
+    align-items: center;
+}
+
+body section.I ul li p.I{
+    font-family: "New Rocker";
+    color: var(--azul);
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+body section ul.cadastro li ul#cadastro li.link{
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient( var(--azul), var(--rosa));
+}
+
+body section.I ul.cadastro li ul#cadastro li.link a{
+    font-size: 1.7rem;
+}
+
+body section.I ul.cadastro li.rosa a{
+    color: var(--rosa);
+    text-decoration: underline;
+    font: 2rem;
+    padding: 1rem;
+}
+
+body section.I ul.cadastro li ul#cadastro li img{
+    width: 3rem;
+    padding: 4rem;
+}
+
+body section ul.cadastro li ul#cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body section.main section.II p.II{
+    font-family: "New Rocker";
+    color: var(--rosa);
+    font-size: 6rem;
+    line-height: 0rem;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+body section.main section.II p.I{
+    font-family: "New Rocker";
+    color: var(--azul);
+    font-size: 6rem;
+    line-height: 0.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+body section.I ul{
+    display: block;
+    align-items: center;
+}
+
+body section.main section.III{
+    align-items: center;
+    display: inline-flex;
+}
+
+body section.main section.III ul li{
+    color: var(--rosa);
+    font-family: "Press Start 2P";
+    font-size: 2.5rem;
+}
+
+body section.main section.III section.lista ul.exemplo li.exemplo{
+    color: var(--azul);
+    font-family: "New Rocker";
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+body section.main section.III section.lista ul.exemplo{
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+body section.main section.III section.lista ul.exemplo li.seta img{
+    padding-bottom: 1.5rem;
+}
+
+body section.main section.III picture img{
+    width: 35rem;
+    padding-right: 3rem;
+}
