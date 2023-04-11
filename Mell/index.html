@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./responsivoH.css">
     <link rel="stylesheet" href="./menu.css" />
 </head>
 
@@ -29,27 +30,30 @@
         <img class="pesquisar" src="./Imagens/pesquisar.png" />
         <nav class="Links">
             <ul>
-                <li>
-                    <a href="sobre.html">Sobre</a>
+                <li class="sobre">
+                    <a href="">Sobre</a>
 
                 </li>
 
                 <li class="separa"></li>
 
+                <li class="ajuda">
+                    <a href="">Ajuda</a>
+
+                </li>
                 <li>
-                    <a href="ajuda.html">Ajuda</a>
+                    <ul class="top">
+                        <li id="entrar">
+                            <a href="entrar.html" class="Entrar">Entrar</a>
 
-                </li>
+                        </li>
 
-                <li id="entrar">
-                    <a href="entrar.html" class="Entrar">Entrar</a>
+                        <li id="espaco"></li>
 
-                </li>
-
-                <li id="espaco"></li>
-
-                <li id="cadastrar">
-                    <a href="cadastrar.html" class="Cadastrar">Cadastrar</a>
+                        <li id="cadastrar">
+                            <a href="" class="Cadastrar">Cadastrar</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
@@ -71,7 +75,7 @@
                 <li>
                     <ul id="cadastro">
                         <li class="link">
-                            <a href="cadastrar.html">Começar</a>
+                            <a href="">Começar</a>
                         </li>
                         <li>
                             <img src="./Imagens/seta.png" alt="Seta" />
@@ -90,8 +94,10 @@
         </section>
 
         <section class="II">
-            <p class="I">Faça seu RPG balanceado, fácil </p>
-            <p class="II">e totalmente balanceado!</p>
+            <div>
+                <p class="I">Faça seu RPG balanceado, fácil </p>
+                <p class="II">e totalmente balanceado!</p>
+            </div>
         </section>
 
         <section class="III">
@@ -105,7 +111,7 @@
                     <li>Convide seus amigos</li>
                 </ul>
                 <ul class="exemplo">
-                    
+
                     <li class="seta">
                         <img src="./Imagens/setaII.png" />
                     </li>
