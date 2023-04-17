@@ -21,7 +21,7 @@ header nav.hamburger {
 
 header nav.hamburger ul {
     display: none;
-    background-color: var(--branco);
+    background-color: var(--dark);
 }
 
 header nav.hamburger label[for="menu-toggle"] {
@@ -39,7 +39,7 @@ header nav.hamburger label[for="menu-toggle"] div.menu-hamburger {
 header nav.hamburger label[for="menu-toggle"] div.menu-hamburger span.hamburger {
     position: relative;
     display: block;
-    background-color: var(--preto);
+    background-image: linear-gradient(var(--azul), var(--rosa));
     width: 30px;
     height: 2px;
 }
@@ -48,7 +48,7 @@ header nav.hamburger label[for="menu-toggle"] div.menu-hamburger span.hamburger:
 header nav.hamburger label[for="menu-toggle"] div.menu-hamburger span.hamburger:after {
     position: absolute;
     display: block;
-    background-color: var(--preto);
+    background-image: linear-gradient(var(--azul), var(--rosa));
     width: 100%;
     height: 100%;
     content: "";
@@ -63,8 +63,12 @@ header nav.hamburger label[for="menu-toggle"] div.menu-hamburger span.hamburger:
 }
 
 header nav.hamburger input:checked~ul {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     animation: fade-in 1s;
+    top: 0rem;
 }
 
 header nav.hamburger input:checked~label[for="menu-toggle"] div.menu-hamburger span.hamburger {

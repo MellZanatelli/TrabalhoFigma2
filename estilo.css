@@ -113,13 +113,16 @@ header.home nav ul li{
 
 header.home picture img{
     height: 4rem;
-    padding: 2rem;
-    float: left;
+    
 }
 
 header.home nav{
     display: inline-flex;
 
+}
+
+header.home picture{
+    padding: 4rem;
 }
 
 /*Configuraações do body */
@@ -137,7 +140,13 @@ section ul li ul#cadastro{
 section.main section.I{
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+section.main section.I ul.cadastro{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 section.main section.II{
@@ -147,9 +156,9 @@ section.main section.II{
 }
 
 section.main section.III{
-    align-items: center;
     display: grid;
     grid-template-columns: auto auto;
+    left: 4rem;
 }
 
 section.I ul li p.I{
@@ -181,7 +190,10 @@ section.I ul.cadastro li.rosa a{
 
 section.I ul.cadastro li ul#cadastro li img{
     width: 3rem;
-    padding: 4rem;
+}
+
+section.I ul.cadastro li ul#cadastro li.espaco{
+    padding: 2rem;
 }
 
 section ul.cadastro li ul#cadastro{
@@ -195,7 +207,7 @@ section.main section.II p.II{
     font-family: "New Rocker";
     color: var(--rosa);
     font-size: 6rem;
-    line-height: 4rem;
+    line-height: 6rem;
     text-align: center;
     padding: 2rem;
     padding-bottom: 3rem;
@@ -206,7 +218,7 @@ section.main section.II p.I{
     font-family: "New Rocker";
     color: var(--azul);
     font-size: 6rem;
-    line-height: 4rem;
+    line-height: 6rem;
     text-align: center;
     padding: 2rem;
     margin: 1px;
@@ -219,22 +231,25 @@ section.main section.II{
 
 section.I ul{
     display: block;
-    align-items: center;
 }
 
 section.I{
-    display: flex;
+    display: grid;
 }
 
 section.main section.III{
     align-items: center;
-    display: inline-flex;
+    display: grid;
 }
 
 section.main section.III ul li{
     color: var(--rosa);
     font-family: "Press Start 2P";
     font-size: 2.5rem;
+}
+
+section.main section.III section.lista{
+    padding: 4rem;
 }
 
 section.main section.III section.lista ul.exemplo li.exemplo{
@@ -264,4 +279,8 @@ section.main section.III picture img{
 footer.home{
     background: #2E1B5B url(./Imagens/matinho.png);
     height: 4rem;
+}
+
+section.espaco{
+    padding: 3rem;
 }
